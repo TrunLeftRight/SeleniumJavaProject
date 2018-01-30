@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1" parallel="tests" thread-count="2">
+    <test name="FirstTest">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+                <class name="FirstEBayTest">
+                    <methods>
+                        <include name="googleHomeMiniTest" />
+                    </methods>
+                </class>
+        </classes>
+    </test><!-- First Test with chrome browser-->
+
+    <test name="SecondTest" >
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="SecondEBayTest">
+                <methods>
+                    <include name="nintendoSwitchTest" />
+                </methods>
+            </class>
+        </classes>
+    </test> <!-- Second Test with firefox browser -->
+
+</suite>

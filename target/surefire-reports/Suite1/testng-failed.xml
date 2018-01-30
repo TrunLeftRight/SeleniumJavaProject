@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Suite1]" parallel="tests">
+  <parameter name="browser" value="firefox"/>
+  <test name="SecondTest(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="FirstEBayTest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="setupTest"/>
+        </methods>
+      </class> <!-- FirstEBayTest -->
+      <class name="SecondEBayTest">
+        <methods>
+          <include name="afterTest"/>
+          <include name="setupTest"/>
+          <include name="nintendoSwitchTest"/>
+        </methods>
+      </class> <!-- SecondEBayTest -->
+    </classes>
+  </test> <!-- SecondTest(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

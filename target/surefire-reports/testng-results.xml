@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="35150" started-at="2018-01-30T05:55:37Z" finished-at="2018-01-30T05:56:12Z">
+    <groups>
+    </groups>
+    <test name="SecondTest" duration-ms="29410" started-at="2018-01-30T05:55:37Z" finished-at="2018-01-30T05:56:07Z">
+      <class name="SecondEBayTest">
+        <test-method status="PASS" signature="setupTest(java.lang.String)[pri:0, instance:SecondEBayTest@30c7da1e]" name="setupTest" is-config="true" duration-ms="13985" started-at="2018-01-30T16:55:37Z" finished-at="2018-01-30T16:55:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="nintendoSwitchTest()[pri:0, instance:SecondEBayTest@30c7da1e]" name="nintendoSwitchTest" duration-ms="14725" started-at="2018-01-30T16:55:51Z" finished-at="2018-01-30T16:56:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nintendoSwitchTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:SecondEBayTest@30c7da1e]" name="afterTest" is-config="true" duration-ms="695" started-at="2018-01-30T16:56:06Z" finished-at="2018-01-30T16:56:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- SecondEBayTest -->
+    </test> <!-- SecondTest -->
+    <test name="FirstTest" duration-ms="35150" started-at="2018-01-30T05:55:37Z" finished-at="2018-01-30T05:56:12Z">
+      <class name="FirstEBayTest">
+        <test-method status="PASS" signature="setupTest(java.lang.String)[pri:0, instance:FirstEBayTest@7c75222b]" name="setupTest" is-config="true" duration-ms="7852" started-at="2018-01-30T16:55:37Z" finished-at="2018-01-30T16:55:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupTest -->
+        <test-method status="PASS" signature="googleHomeMiniTest()[pri:0, instance:FirstEBayTest@7c75222b]" name="googleHomeMiniTest" duration-ms="26457" started-at="2018-01-30T16:55:45Z" finished-at="2018-01-30T16:56:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleHomeMiniTest -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:FirstEBayTest@7c75222b]" name="afterTest" is-config="true" duration-ms="829" started-at="2018-01-30T16:56:12Z" finished-at="2018-01-30T16:56:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- FirstEBayTest -->
+    </test> <!-- FirstTest -->
+  </suite> <!-- Suite1 -->
+</testng-results>
