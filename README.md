@@ -1,4 +1,4 @@
-#Data Republic QA Automation Test
+# Data Republic QA Automation Test
 
 # Objective​:
 Create 2 automated test: an End to End and an API.
